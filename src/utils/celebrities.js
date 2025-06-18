@@ -1,29 +1,29 @@
 export const celebrities = [
   {
     id: 1,
-    name: "Morgan Freeman",
-    audioFile: "/audio/celebrity1.wav",
+    name: "Trump",
+    audioFile: "/audio/Trump.wav",
     description: "Deep, authoritative voice",
     category: "Actor"
   },
   {
     id: 2,
-    name: "Scarlett Johansson",
-    audioFile: "/audio/celebrity1.wav",
+    name: "Hawking",
+    audioFile: "/audio/Hawking.wav",
     description: "Smooth, captivating voice",
     category: "Actress"
   },
   {
     id: 3,
-    name: "Barack Obama",
-    audioFile: "/audio/celebrity1.wav",
+    name: "Biden",
+    audioFile: "/audio/baideng.wav",
     description: "Presidential, inspiring voice",
     category: "Political"
   },
   {
     id: 4,
-    name: "David Attenborough",
-    audioFile: "/audio/celebrity1.wav",
+    name: "JoeRogan",
+    audioFile: "/audio/JoeRogan.wav",
     description: "Nature documentary narrator",
     category: "Narrator"
   }
