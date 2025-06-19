@@ -2,26 +2,30 @@ export const celebrities = [
   {
     id: 1,
     name: "Trump",
-    audioFile: "/audio/Trump.wav",
-    category: "Actor"
+    audioFile: "/audio/celebrity1.wav",
+    avatar: "/avatars/trump.jpg",
+    category: "Political"
   },
   {
     id: 2,
     name: "Hawking",
-    audioFile: "/audio/Hawking.wav",
-    category: "Actress"
+    audioFile: "/audio/celebrity2.wav",
+    avatar: "/avatars/hawking.jpg",
+    category: "Scientist"
   },
   {
     id: 3,
     name: "Biden",
-    audioFile: "/audio/baideng.wav",
+    audioFile: "/audio/celebrity3.wav",
+    avatar: "/avatars/biden.jpg",
     category: "Political"
   },
   {
     id: 4,
     name: "JoeRogan",
-    audioFile: "/audio/JoeRogan.wav",
-    category: "Narrator"
+    audioFile: "/audio/celebrity4.wav",
+    avatar: "/avatars/joerogan.jpg",
+    category: "Media"
   }
 ];
 

@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from 'react';
 
+
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
-
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
@@ -15,31 +16,60 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-white/80 apple-blur shadow-sm' : 'bg-transparent'
-    }`}>
+    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/80 apple-blur shadow-sm' : 'bg-transparent'
+      }`}>
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <h1 className="text-xl font-bold text-gradient">AI Voice Generator</h1>
+              <a href="/" className="text-xl font-bold text-gradient">AI Celebrity Voice Generator</a>
             </div>
           </div>
-          
+
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a href="#home" className="text-gray-700 hover:text-apple-blue transition-colors duration-200 font-medium">
+              <a href="/" className="text-gray-700 hover:text-apple-blue transition-colors duration-200 font-medium">
                 Home
               </a>
-              <a href="#generator" className="text-gray-700 hover:text-apple-blue transition-colors duration-200 font-medium">
-                Generator
-              </a>
-              <a href="#features" className="text-gray-700 hover:text-apple-blue transition-colors duration-200 font-medium">
-                Features
-              </a>
-              <a href="#about" className="text-gray-700 hover:text-apple-blue transition-colors duration-200 font-medium">
-                About
-              </a>
+              <div className="relative">
+                <button
+                  onMouseEnter={() => setIsDropdownOpen(true)}
+                  onMouseLeave={() => setIsDropdownOpen(false)}
+                  className="text-gray-700 hover:text-apple-blue transition-colors duration-200 font-medium flex items-center space-x-1"
+                >
+                  <span>Celebrity Voice</span>
+                  <svg className="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                  </svg>
+                </button>
+
+                {/* Dropdown Menu */}
+                <div
+                  onMouseEnter={() => setIsDropdownOpen(true)}
+                  onMouseLeave={() => setIsDropdownOpen(false)}
+                  className={`absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-lg border border-gray-200 py-2 transform transition-all duration-200 ${isDropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2'
+                    }`}
+                >
+                  <a
+                    href="/trump-ai-voice"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Trump AI Voice
+                  </a>
+                  <a
+                    href="/stephen-hawking"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Stephen Hawking Voice
+                  </a>
+                  <a
+                    href="/joe-biden"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Joe Biden AI Voice
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
 

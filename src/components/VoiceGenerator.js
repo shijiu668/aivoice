@@ -77,16 +77,21 @@ export default function VoiceGenerator() {
                                             : 'bg-gray-50 hover:bg-gray-100'
                                             }`}
                                     >
-                                        <div className="flex items-center space-x-3">
-                                            <div className={`w-3 h-3 rounded-full ${selectedCelebrity.id === celebrity.id ? 'bg-white' : 'bg-apple-blue'
-                                                }`}></div>
-                                            <div>
-                                                <h4 className="font-medium">{celebrity.name}</h4>
+                                        <div className="flex items-center space-x-4">
+                                            <img
+                                                src={celebrity.avatar}
+                                                alt={celebrity.name}
+                                                className="w-16 h-16 rounded-full object-cover border-2 border-white/20"
+                                            />
+                                            <div className="flex-1">
+                                                <h4 className="font-medium text-lg">{celebrity.name}</h4>
                                                 <p className={`text-sm ${selectedCelebrity.id === celebrity.id ? 'text-white/80' : 'text-gray-500'
                                                     }`}>
                                                     {celebrity.description}
                                                 </p>
                                             </div>
+                                            <div className={`w-3 h-3 rounded-full ${selectedCelebrity.id === celebrity.id ? 'bg-white' : 'bg-apple-blue'
+                                                }`}></div>
                                         </div>
                                     </div>
                                 ))}
@@ -103,7 +108,7 @@ export default function VoiceGenerator() {
                                         value={text}
                                         onChange={(e) => setText(e.target.value)}
                                         placeholder="Enter the text you want the AI voice to speak..."
-                                        className="w-full h-32 p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-apple-blue focus:border-transparent resize-none text-gray-900 placeholder-gray-500"
+                                        className="w-full h-80 p-4 border border-gray-300 rounded-xl focus:ring-2 focus:ring-apple-blue focus:border-transparent resize-none text-gray-900 placeholder-gray-500"
                                         maxLength={500}
                                     />
                                     <div className="flex justify-between items-center mt-2">
@@ -121,7 +126,7 @@ export default function VoiceGenerator() {
                                         <button
                                             onClick={handleGenerate}
                                             disabled={isGenerating || !text.trim()}
-                                            className="px-8 py-3 bg-apple-blue text-white rounded-xl font-medium hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 flex items-center space-x-2"
+                                            className="w-full py-3 bg-apple-blue text-white rounded-xl font-medium hover:bg-blue-600 disabled:opacity-50 disabled:cursor-not-allowed transition-all duration-200 flex items-center justify-center space-x-2"
                                         >
                                             {isGenerating ? (
                                                 <>
@@ -155,21 +160,11 @@ export default function VoiceGenerator() {
                                         </div>
                                     )}
                                 </div>
-
-                                <div className="bg-blue-50 rounded-xl p-4">
-                                    <h4 className="font-medium text-gray-900 mb-2">Selected Voice:</h4>
-                                    <div className="flex items-center space-x-3">
-                                        <div className="w-2 h-2 bg-apple-blue rounded-full"></div>
-                                        <span className="text-gray-700">{selectedCelebrity.name}</span>
-                                        <span className="text-gray-500">-</span>
-                                        <span className="text-gray-500">{selectedCelebrity.description}</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
