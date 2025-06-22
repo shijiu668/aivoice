@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Obama AI Voice Generator - Free Barack Obama Voice Generator Online',
-    description: 'Generate authentic Barack Obama AI voice with our free Obama voice generator. Create realistic Obama voice content instantly with advanced AI technology.',
+    title: 'Obama AI Voice',
+    description: 'Make Barack Obama say your words! Enter any text and generate authentic Obama AI voice instantly with our free voice generator.',
     keywords: 'obama ai voice, obama voice generator, obama voice, barack obama ai voice, barack obama voice generator, ai obama voice, obama tts, obama text to speech ai',
     openGraph: {
         title: 'Obama AI Voice Generator - Free Barack Obama Voice Generator',

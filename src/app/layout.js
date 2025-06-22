@@ -1,14 +1,14 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'AI Voice Generator - Create Celebrity Voices with AI Technology',
-  description: 'Transform text to speech with our advanced AI voice generator. Create realistic celebrity voices, AI voice changer technology, and professional AI voice cloning. Free AI voice generator online.',
-  keywords: 'ai voice generator, ai celebrity voice generator, ai voice changer, text to speech, voice cloning, celebrity voice, ai voice synthesis, voice generator online, free voice generator',
+  title: 'AI Celebrity Voice Generator',
+  description: 'Transform any text into authentic celebrity voices instantly. Generate voices like Trump, Obama, Stephen Hawking, SpongeBob, and many others with our free AI voice generator.',
+  keywords: 'celebrity ai voice generator, ai celebrity voice generator, ai voice generator celebrity, celebrity voice generator, celebrity voice ai, celebrity voice changer, ai voice celebrity, celebrity ai voice, free celebrity ai voice generator, ai celebrity voice, celebrity voice, free ai voice generator celebrity, celebrity ai voices, ai celebrity voices, celebrity voice changers, celebrity voice generator online free',
   openGraph: {
-    title: 'AI Voice Generator - Create Celebrity Voices with AI Technology',
-    description: 'Transform text to speech with our advanced AI voice generator. Create realistic celebrity voices and professional voice cloning.',
+    title: 'AI Celebrity Voice Generator',
+    description: 'Transform any text into authentic celebrity voices instantly. Generate voices like Trump, Obama, Stephen Hawking, SpongeBob, and many others with our free AI voice generator.',
     url: 'https://your-domain.com',
-    siteName: 'AI Voice Generator',
+    siteName: 'AI Celebrity Voice Generator',
     images: [
       {
         url: '/og-image.jpg',

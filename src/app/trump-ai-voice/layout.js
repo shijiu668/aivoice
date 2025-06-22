@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Trump AI Voice Generator - Free Donald Trump Voice Generator Online',
-  description: 'Generate authentic Donald Trump AI voice with our free Trump voice generator. Create realistic Trump voice content instantly with advanced AI technology.',
+  title: 'Trump AI Voice',
+  description: 'Make Trump say your words! Enter any text and generate authentic Donald Trump AI voice instantly with our free Trump voice generator.',
   keywords: 'trump ai voice, trump ai voice generator, donald trump ai voice, trump voice ai, donald trump voice generator, ai trump voice, trump voice generator',
   openGraph: {
     title: 'Trump AI Voice Generator - Free Donald Trump Voice Generator',

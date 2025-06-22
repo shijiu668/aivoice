@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Stephen Hawking Voice Generator - Free Text to Speech Synthesizer',
-  description: 'Generate authentic Stephen Hawking voice with our advanced text to speech technology. Create realistic Stephen Hawking voice content instantly with our voice synthesizer.',
+  title: 'Stephen Hawking Voice Generator',
+  description: 'Make Stephen Hawking say your words! Enter any text and generate authentic Stephen Hawking voice instantly with our free voice synthesizer.',
   keywords: 'stephen hawking voice generator, stephen hawking voice, stephen hawking text to speech, voice stephen hawking, stephen hawking speaking, stephen hawking voice synthesiser',
   openGraph: {
     title: 'Stephen Hawking Voice Generator - Text to Speech Synthesizer',
