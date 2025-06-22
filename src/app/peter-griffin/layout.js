@@ -5,7 +5,7 @@ export const metadata = {
     openGraph: {
         title: 'Peter Griffin AI Voice Generator - Free Family Guy Voice Generator',
         description: 'Create authentic Peter Griffin AI voice content with our advanced Family Guy voice generator technology.',
-        url: 'https://your-domain.com/peter-griffin',
+        url: 'https://aicelebrityvoice.org/peter-griffin',
         siteName: 'AI Celebrity Voice Generator',
         images: [
             {

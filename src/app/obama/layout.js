@@ -5,7 +5,7 @@ export const metadata = {
     openGraph: {
         title: 'Obama AI Voice Generator - Free Barack Obama Voice Generator',
         description: 'Create authentic Barack Obama AI voice content with our advanced Obama voice generator technology.',
-        url: 'https://your-domain.com/obama',
+        url: 'https://aicelebrityvoice.org/obama',
         siteName: 'AI Celebrity Voice Generator',
         images: [
             {

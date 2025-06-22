@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: 'Trump AI Voice Generator - Free Donald Trump Voice Generator',
     description: 'Create authentic Donald Trump AI voice content with our advanced Trump voice generator technology.',
-    url: 'https://your-domain.com/trump-ai-voice',
+    url: 'https://aicelebrityvoice.org/trump-ai-voice',
     siteName: 'AI Celebrity Voice Generator',
     images: [
       {

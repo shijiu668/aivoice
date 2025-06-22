@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: 'AI Celebrity Voice Generator',
     description: 'Transform any text into authentic celebrity voices instantly. Generate voices like Trump, Obama, Stephen Hawking, SpongeBob, and many others with our free AI voice generator.',
-    url: 'https://your-domain.com',
+    url: 'https://aicelebrityvoice.org/',
     siteName: 'AI Celebrity Voice Generator',
     images: [
       {

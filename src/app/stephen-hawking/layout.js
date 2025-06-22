@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: 'Stephen Hawking Voice Generator - Text to Speech Synthesizer',
     description: 'Create authentic Stephen Hawking voice content with our advanced voice generator technology.',
-    url: 'https://your-domain.com/stephen-hawking',
+    url: 'https://aicelebrityvoice.org/stephen-hawking',
     siteName: 'AI Celebrity Voice Generator',
     images: [
       {

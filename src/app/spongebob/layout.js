@@ -5,7 +5,7 @@ export const metadata = {
     openGraph: {
         title: 'SpongeBob AI Voice - Free SpongeBob Voice Generator',
         description: 'Create authentic SpongeBob AI voice content with our advanced SpongeBob voice generator technology.',
-        url: 'https://your-domain.com/spongebob',
+        url: 'https://aicelebrityvoice.org/spongebob',
         siteName: 'AI Celebrity Voice Generator',
         images: [
             {

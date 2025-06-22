@@ -5,7 +5,7 @@ export const metadata = {
   openGraph: {
     title: 'Joe Biden AI Voice Generator - Free Biden Voice Generator',
     description: 'Create authentic Joe Biden AI voice content with our advanced Biden voice generator technology.',
-    url: 'https://your-domain.com/joe-biden',
+    url: 'https://aicelebrityvoice.org/joe-biden',
     siteName: 'AI Celebrity Voice Generator',
     images: [
       {
