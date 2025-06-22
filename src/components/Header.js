@@ -68,6 +68,24 @@ export default function Header() {
                   >
                     Joe Biden AI Voice
                   </a>
+                  <a
+                    href="/obama"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Obama AI Voice
+                  </a>
+                  <a
+                    href="/peter-griffin"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Peter Griffin AI Voice
+                  </a>
+                  <a
+                    href="/spongebob"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    SpongeBob AI Voice
+                  </a>
                 </div>
               </div>
             </div>

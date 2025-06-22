@@ -67,14 +67,14 @@ export default function VoiceGenerator() {
                         {/* Left side - Celebrity Selection */}
                         <div className="lg:col-span-1">
                             <h3 className="text-xl font-semibold text-gray-900 mb-6">Choose Voice</h3>
-                            <div className="space-y-3">
+                            <div className="h-[28rem] overflow-y-auto space-y-3 pr-2 scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
                                 {celebrities.map((celebrity) => (
                                     <div
                                         key={celebrity.id}
                                         onClick={() => setSelectedCelebrity(celebrity)}
                                         className={`p-4 rounded-xl cursor-pointer transition-all duration-200 hover:shadow-md ${selectedCelebrity.id === celebrity.id
-                                            ? 'bg-apple-blue text-white shadow-lg'
-                                            : 'bg-gray-50 hover:bg-gray-100'
+                                                ? 'bg-apple-blue text-white shadow-lg'
+                                                : 'bg-gray-50 hover:bg-gray-100'
                                             }`}
                                     >
                                         <div className="flex items-center space-x-4">

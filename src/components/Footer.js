@@ -34,6 +34,9 @@ export default function Footer() {
               <li><a href="/trump-ai-voice" className="text-gray-300 hover:text-white transition-colors">Trump AI Voice</a></li>
               <li><a href="/stephen-hawking" className="text-gray-300 hover:text-white transition-colors">Stephen Hawking Voice</a></li>
               <li><a href="/joe-biden" className="text-gray-300 hover:text-white transition-colors">Joe Biden AI Voice</a></li>
+              <li><a href="/obama" className="text-gray-300 hover:text-white transition-colors">Obama AI Voice</a></li>
+              <li><a href="/peter-griffin" className="text-gray-300 hover:text-white transition-colors">Peter Griffin AI Voice</a></li>
+              <li><a href="/spongebob" className="text-gray-300 hover:text-white transition-colors">SpongeBob AI Voice</a></li>
             </ul>
           </div>
 

@@ -26,6 +26,27 @@ export const celebrities = [
     audioFile: "/audio/celebrity4.wav",
     avatar: "/avatars/joerogan.jpg",
     category: "Media"
+  },
+  {
+    id: 5,
+    name: "Obama",
+    audioFile: "/audio/obama.wav",
+    avatar: "/avatars/obama.jpg",
+    category: "Political"
+  },
+  {
+    id: 6,
+    name: "Peter",
+    audioFile: "/audio/peter.wav",
+    avatar: "/avatars/peter.jpg",
+    category: "Animation"
+  },
+  {
+    id: 7,
+    name: "SpongeBob",
+    audioFile: "/audio/spongebob.wav",
+    avatar: "/avatars/spongebob.jpg",
+    category: "Animation"
   }
 ];
 
