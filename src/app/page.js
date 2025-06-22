@@ -24,8 +24,8 @@ export default function Home() {
               AI Celebrity Voice Generator
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed animate-fade-in-up">
-              Transform any text into authentic celebrity voices with our advanced celebrity AI voice generator.
-              Create stunning AI celebrity voice content instantly with our free celebrity voice generator and professional celebrity voice changer technology.
+              Type your text and hear celebrities say anything you want instantly.
+              Make Trump, Obama, Stephen Hawking, SpongeBob, and more speak your words with our free AI celebrity voice generator.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
