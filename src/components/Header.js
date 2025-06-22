@@ -51,7 +51,7 @@ export default function Header() {
                     }`}
                 >
                   <a
-                    href="/trump-ai-voice"
+                    href="/trump"
                     className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
                   >
                     Trump AI Voice
