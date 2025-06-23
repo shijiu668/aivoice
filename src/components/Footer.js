@@ -49,6 +49,23 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+          <p className="text-gray-500 text-sm mb-4">
+            <a href="https://magicbox.tools" title="MagicBox.Tools - AI Tools Directory" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              MagicBox.Tools - AI Tools Directory
+            </a>
+            <span className="mx-2">•</span>
+            <a href="https://allinai.tools" title="All The Best AI Tools" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              All in AI Tools
+            </a>
+            <span className="mx-2">•</span>
+            <a href="https://right-ai.com" title="RightAI Tools Directory" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              RightAI Tools Directory
+            </a>
+            <span className="mx-2">•</span>
+            <a href="https://aijustworks.com" title="AI Just Works" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+              AI Just Works
+            </a>
+          </p>
           <p className="text-gray-400">
             © 2025 AI Voice Generator. All rights reserved. Powered by advanced AI voice generation technology.
           </p>
