@@ -86,6 +86,12 @@ export default function Header() {
                   >
                     SpongeBob AI Voice
                   </a>
+                  <a
+                    href="/ice-spice"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Ice Spice AI
+                  </a>
                 </div>
               </div>
             </div>
