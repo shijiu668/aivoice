@@ -55,6 +55,14 @@ export const celebrities = [
     avatar: "/avatars/ice-spice.jpg",
     description: "Rapper & Artist",
     category: "Music"
+  },
+  {
+    id: 9,
+    name: "Morgan Freeman",
+    audioFile: "/audio/morgan-freeman.wav",
+    avatar: "/avatars/morgan-freeman.jpg",
+    description: "Morgan Freeman",
+    category: "Media"
   }
 ];
 

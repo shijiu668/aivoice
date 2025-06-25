@@ -92,6 +92,12 @@ export default function Header() {
                   >
                     Ice Spice AI
                   </a>
+                  <a
+                    href="/morgan-freeman"
+                    className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium"
+                  >
+                    Morgan Freeman Voice
+                  </a>
                 </div>
               </div>
             </div>
