@@ -47,6 +47,14 @@ export const celebrities = [
     audioFile: "/audio/spongebob.wav",
     avatar: "/avatars/spongebob.jpg",
     category: "Animation"
+  },
+  {
+    id: 8,
+    name: "Ice Spice",
+    audioFile: "/audio/ice-spice.wav",
+    avatar: "/avatars/ice-spice.jpg",
+    description: "Rapper & Artist",
+    category: "Music"
   }
 ];
 
