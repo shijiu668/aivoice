@@ -63,6 +63,38 @@ export const celebrities = [
     avatar: "/avatars/morgan-freeman.jpg",
     description: "Morgan Freeman",
     category: "Media"
+  },
+  {
+    id: 10,
+    name: "Pokimane",
+    audioFile: "/audio/pokimane.wav",
+    avatar: "/avatars/pokimane.jpg",
+    description: "Twitch Streamer & Content Creator",
+    category: "Gaming"
+  },
+  {
+    id: 11,
+    name: "Siri",
+    audioFile: "/audio/siri.wav",
+    avatar: "/avatars/siri.jpg",
+    description: "Apple's Virtual Assistant",
+    category: "Technology"
+  },
+  {
+    id: 12,
+    name: "Squidward",
+    audioFile: "/audio/squidward.wav",
+    avatar: "/avatars/squidward.jpg",
+    description: "SpongeBob SquarePants Character",
+    category: "Animation"
+  },
+  {
+    id: 13,
+    name: "Taylor Swift",
+    audioFile: "/audio/taylor-swift.wav",
+    avatar: "/avatars/taylor-swift.jpg",
+    description: "Singer & Songwriter",
+    category: "Music"
   }
 ];
 
