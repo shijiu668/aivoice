@@ -66,6 +66,10 @@ export default function Header() {
                   <a href="/morgan-freeman" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Morgan Freeman Voice</a>
                   <a href="/pokimane" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Pokimane AI Voice</a>
                   <a href="/stephen-hawking" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Stephen Hawking Voice</a>
+                  <a href="/kim-kardashian" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Kim Kardashian Voice</a>
+                  <a href="/kanye" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Kanye AI Voice</a>
+                  <a href="/michael-jackson" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Michael Jackson Voice</a>
+                  <a href="/mr-beast" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">MrBeast AI Voice</a>
                 </nav>
                 <noscript>
                   <div className="sr-only">
@@ -74,6 +78,10 @@ export default function Header() {
                     <a href="/morgan-freeman">Morgan Freeman Voice</a>
                     <a href="/pokimane">Pokimane AI Voice</a>
                     <a href="/stephen-hawking">Stephen Hawking Voice</a>
+                    <a href="/kim-kardashian">Kim Kardashian Voice</a>
+                    <a href="/kanye">Kanye AI Voice</a>
+                    <a href="/michael-jackson">Michael Jackson Voice</a>
+                    <a href="/mr-beast">MrBeast AI Voice</a>
                   </div>
                 </noscript>
               </div>
@@ -90,6 +98,8 @@ export default function Header() {
                   <a href="/peter-griffin" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Peter Griffin AI Voice</a>
                   <a href="/squidward" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Squidward AI Voice</a>
                   <a href="/siri" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Siri Voice Modifier</a>
+                  <a href="/grinch" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Voice of the Grinch</a>
+                  <a href="/optimus-prime-voice" className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-apple-blue transition-colors duration-200 font-medium" role="menuitem">Optimus Prime Voice</a>
                 </nav>
                 <noscript>
                   <div className="sr-only">
@@ -97,6 +107,8 @@ export default function Header() {
                     <a href="/peter-griffin">Peter Griffin AI Voice</a>
                     <a href="/squidward">Squidward AI Voice</a>
                     <a href="/siri">Siri Voice Modifier</a>
+                    <a href="/grinch">Voice of the Grinch</a>
+                    <a href="/optimus-prime-voice">Optimus Prime Voice</a>
                   </div>
                 </noscript>
               </div>

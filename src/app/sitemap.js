@@ -64,6 +64,30 @@ export default function sitemap() {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/kanye`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/kim-kardashian`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/michael-jackson`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/mr-beast`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/peter-griffin`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
@@ -77,6 +101,18 @@ export default function sitemap() {
     },
     {
       url: `${baseUrl}/spongebob`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/grinch`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/optimus-prime`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.8,

@@ -95,6 +95,54 @@ export const celebrities = [
     avatar: "/avatars/taylor-swift.jpg",
     description: "Singer & Songwriter",
     category: "Music"
+  },
+  {
+    id: 14,
+    name: "The Grinch",
+    audioFile: "/audio/grinch.wav",
+    avatar: "/avatars/grinch.jpg",
+    description: "How the Grinch Stole Christmas Character",
+    category: "Animation"
+  },
+  {
+    id: 15,
+    name: "Kanye West",
+    audioFile: "/audio/kanye.wav",
+    avatar: "/avatars/kanye.jpg",
+    description: "Rapper & Music Producer",
+    category: "Music"
+  },
+  {
+    id: 16,
+    name: "Kim Kardashian",
+    audioFile: "/audio/kim-kardashian.wav",
+    avatar: "/avatars/kim-kardashian.jpg",
+    description: "Media Personality & Entrepreneur",
+    category: "Celebrity"
+  },
+  {
+    id: 17,
+    name: "Michael Jackson",
+    audioFile: "/audio/michael-jackson.wav",
+    avatar: "/avatars/michael-jackson.jpg",
+    description: "King of Pop & Music Legend",
+    category: "Music"
+  },
+  {
+    id: 18,
+    name: "MrBeast",
+    audioFile: "/audio/mrbeast.wav",
+    avatar: "/avatars/mrbeast.jpg",
+    description: "YouTube Creator & Philanthropist",
+    category: "Creator"
+  },
+  {
+    id: 19,
+    name: "Optimus Prime",
+    audioFile: "/audio/optimus-prime.wav",
+    avatar: "/avatars/optimus-prime.jpg",
+    description: "Autobot Leader & Transformer Hero",
+    category: "Character"
   }
 ];
 

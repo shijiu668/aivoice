@@ -45,6 +45,10 @@ export default function Footer() {
               <li><a href="/morgan-freeman" className="text-gray-300 hover:text-white transition-colors">Morgan Freeman Voice</a></li>
               <li><a href="/pokimane" className="text-gray-300 hover:text-white transition-colors">Pokimane AI Voice</a></li>
               <li><a href="/stephen-hawking" className="text-gray-300 hover:text-white transition-colors">Stephen Hawking Voice</a></li>
+              <li><a href="/kim-kardashian" className="text-gray-300 hover:text-white transition-colors">Kim Kardashian Voice</a></li>
+              <li><a href="/kanye" className="text-gray-300 hover:text-white transition-colors">Kanye AI Voice</a></li>
+              <li><a href="/michael-jackson" className="text-gray-300 hover:text-white transition-colors">Michael Jackson Voice</a></li>
+              <li><a href="/mr-beast" className="text-gray-300 hover:text-white transition-colors">MrBeast AI Voice</a></li>
             </ul>
           </div>
 
@@ -55,6 +59,8 @@ export default function Footer() {
               <li><a href="/peter-griffin" className="text-gray-300 hover:text-white transition-colors">Peter Griffin AI Voice</a></li>
               <li><a href="/squidward" className="text-gray-300 hover:text-white transition-colors">Squidward AI Voice</a></li>
               <li><a href="/siri" className="text-gray-300 hover:text-white transition-colors">Siri Voice Modifier</a></li>
+              <li><a href="/grinch" className="text-gray-300 hover:text-white transition-colors">Voice of the Grinch</a></li>
+              <li><a href="/optimus-prime-voice" className="text-gray-300 hover:text-white transition-colors">Optimus Prime Voice</a></li>
             </ul>
           </div>
 
