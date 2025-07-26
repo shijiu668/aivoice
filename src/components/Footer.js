@@ -73,6 +73,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+
           <p className="text-gray-500 text-sm mb-4">
             <a href="https://magicbox.tools" title="MagicBox.Tools - AI Tools Directory" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               MagicBox.Tools - AI Tools Directory
@@ -88,6 +89,10 @@ export default function Footer() {
             <span className="mx-2">•</span>
             <a href="https://aijustworks.com" title="AI Just Works" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
               AI Just Works
+            </a>
+            <span className="mx-2">•</span>
+            <a href="https://listmyai.net" title="Featured on Listmyai" target="_blank" rel="noopener noreferrer" className="inline-block align-text-bottom">
+              <img src="https://res.cloudinary.com/dapijepqg/image/upload/v1716836148/listmyai_pink.png" alt="Featured on Listmyai" className="h-6 w-auto" />
             </a>
           </p>
           <p className="text-gray-400">
